@@ -1,3 +1,43 @@
-body{
-    background-color: aquamarine;
-}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+  }
+  
+  body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav{
+    /*Helping in aligning navigation bar background-color: blue; */
+    display: flex;
+    justify-content:space-between;
+  }
+  nav > .logo, .navbar{
+    margin: 15px;
+  }
+  nav > .logo > h3{
+    padding-top: 10px;
+    font-size: 44px;
+    color: #EC4067;
+    
+  }
+  
+  nav > .navbar > ul > li{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 10px;
+    color: rgb(68, 66, 66);
+  }
+  
+  nav > .navbar > ul > li > .but1{
+    padding: 15px;
+    color: white;
+    background-color: #EC4067;
+    border-radius: 12px;
+    width: 110px;
+    font-size: 22px;
+  }
