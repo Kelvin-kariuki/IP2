@@ -16,10 +16,10 @@
     justify-content:space-between;
   }
   nav > .logo, .navbar{
-    margin: 15px;
+    margin: 0px;
   }
   nav > .logo > h3{
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 44px;
     color: #EC4067;
     
@@ -38,6 +38,68 @@
     color: white;
     background-color: #EC4067;
     border-radius: 12px;
-    width: 110px;
+    width: 110px; 
     font-size: 22px;
   }
+  #sect1{
+   /* background-color: aqua; */
+   padding: 35px;
+    padding-top: 70px; 
+   margin: 0px;
+   height: 700px; 
+  }
+ #sect1 >.intro >.imageRight img{
+  /* padding-top: 10px; */
+   /* height: 50px;  */
+   width: 50%;
+  float: right;
+  padding-bottom: 20px;
+} 
+#sect1 > .intro > .introCon h4{
+  padding-top: 30px;
+  color: rgb(68, 66, 66);
+  font-size: 24px;
+  font-weight: lighter;
+  /* padding-bottom: px; */
+}
+#sect1 > .intro > .introCon h2{
+  padding-top: 30px;
+  color: #EC4067;
+  font-size: 34px;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+#sect1 > .intro > .introCon p{
+  font-size: 24px;
+  padding-bottom: 30px;
+  width: 50%;
+  color: rgb(68, 66, 66);
+} 
+#sect1 > .intro > .introBut > ul > li{
+  display: flex;
+  display: inline-block;
+  justify-items: center;
+
+}
+#sect1 > .intro > .introBut > ul > li >button{
+  color: white;
+  background-color: #EC4067;
+  /* border-radius: 5px; */
+  width:180px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+#sect1 > .intro > .introBut > ul > li > .introBut1{
+  color: white;
+  border-radius: 5px;
+}
+#sect1 > .intro > .introBut > ul > li > .introBut2{
+  background-color: white;
+  color: #EC4067;
+}
+
+
+  
+  
