@@ -43,17 +43,19 @@
   }
   #sect1{
    /* background-color: aqua; */
-   padding: 35px;
+   padding: 80px;
     padding-top: 70px; 
    margin: 0px;
-   height: 700px; 
+   /* height: 700px;  */
   }
  #sect1 >.intro >.imageRight img{
   /* padding-top: 10px; */
    /* height: 50px;  */
-   width: 50%;
+   /* width: 50%; */
+   height: 360px;
   float: right;
   padding-bottom: 20px;
+  
 } 
 #sect1 > .intro > .introCon h4{
   padding-top: 30px;
@@ -99,7 +101,40 @@
   background-color: white;
   color: #EC4067;
 }
-
-
+.stories{
+  padding:80px;
+  font-family: 'Nunito';
+  font-size: 24px;
   
-  
+}
+img {
+  height: 300px;
+  width: 450px;
+  border: none;
+}
+
+.stories img {
+  width:600px;
+  height: 350px;
+}
+h3 {
+  color: #EC4067
+}
+
+.stories .orientation {
+  margin-bottom: 15px;
+  padding: 10px;
+  color: rgb(68, 66, 66);
+}
+
+.stories button {
+  width: 110px;
+  border-radius: 8px;
+  background-color: #EC4067;
+  color: white;
+  font-size: 20px;
+}
+.stories h3 {
+  color: black;
+  font-weight: bold;
+  font-size: large;
